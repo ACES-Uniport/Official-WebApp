@@ -63,7 +63,7 @@ body{
 }
 .carousel{
     width: 100%;
-    height: 900px;
+    height: 890px;
 }
 .carousel-fade .carousel-item {
     opacity: 0.9;
