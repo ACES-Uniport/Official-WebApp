@@ -18,7 +18,12 @@
     text-decoration: none;
     list-style-type: none;
     font-weight: 500;
-}}
+}
+.carousel{
+    width: 100%;
+    height: 900px;
+}
+}
 .navbar a{
     text-decoration: none;
     color: black;
@@ -145,6 +150,10 @@ body{
         list-style-type: none;
         font-weight: 500;
     }
+    .carousel{
+        width: 100%;
+        height: 250px;
+    }
   
     .nav-links li {
       opacity: 0;
@@ -159,10 +168,13 @@ body{
     .nav-active {
       transform: translateX(0);
       height: 100%;
-      margin-top: 80px;
+      /* margin-top: 80px; */
       width: 100%;
       position:fixed;
-      z-index: 2;
+      z-index: -1;
+    }
+    .carousel{
+        z-index: -2;
     }
   
     .nav-active li {
